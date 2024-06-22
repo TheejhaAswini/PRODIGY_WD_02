@@ -1,0 +1,66 @@
+
+body, html
+ {
+    width:100%;
+    height:100%;
+    font-family:Arial;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#4C4C4C ;
+    color:#FFFFFF;
+}
+
+.container 
+{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.stopwatch 
+{
+    text-align: center;
+    background-color:#000000 ;
+    width:60%;
+    padding:50px;
+    border-radius:50px;
+    
+}
+
+.display 
+{
+    font-size:70px;
+    margin-bottom:40px;
+    color:#00FF00;
+}
+
+.buttons button 
+{
+    font-size:25px;
+    padding:5px 10px;
+    border: none;
+    border-radius:25px;
+    background-color:#00FF00;
+    color:#000000;
+}
+
+.laps 
+{
+    margin-top:50px;
+    text-align:left;
+    width:100%;
+}
+
+#lap-times
+{
+    color:#2FEA12 ;
+}
+
+#lap-times
+{
+    border-bottom: 5px solid #40F508 ;
+}
